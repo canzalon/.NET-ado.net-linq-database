@@ -1,2 +1,7 @@
 .NET-ado.net-linq-database
 ==========================
+A database project similar to the .NET-transact-sql-database project, from the .Net course. Rather than using transact-SQL, the C# ADO.NET classes from the .NET framework are used to create a front-end database client for the SPJ database. It allows for the interaction with the database using strictly C#, and the use of its built-in libraries, namely Language-Integrated Query (LINQ). 
+
+Included in this solution are projects that include the following utilizations of LINQ to Entities, LINQ to DataSets and LINQ to SQL: a direct translation of the Transact-SQL invoke script (from .NET-transact-sql-database) to an invoke C# ADO.NET program, a general purpose load utility for the database written as a C# ADO.NET program, the use of the DataSet object which allows for managing data while being completely disconnected from the database itself, and the use of LINQ to SQL is demonstrated in one of the projects as a means of communicating directly with the database by creating .NET framework classes that represent data and map directly to the database. LINQ to SQL is useful when mapping to a conceptual model is not required.
+
+For more, extensive, information on each of the projects in this solution refer to assig4.doc.
